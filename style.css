@@ -4,8 +4,17 @@
 :root{
     --fonte-titulo: 'Anton';
     --fonte-texto:'Alan Sans';
-    --cor-principal:#101725;
-    --cor--secundaria:#4DD0E1;
-    --cor-destaque:#D3D3D3;
-    --cor-texto:#88A0B9;
-}
+    --cor-principal: #1c002f;
+    --cor-secundaria: #8107cd; 
+    --cor-destaque: #b44bf9;
+    --cor-texto: #ffffff; 
+   }
+   body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   }
