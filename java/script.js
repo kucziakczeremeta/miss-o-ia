@@ -18,13 +18,13 @@ function iniciaJogo (){
     telaInicial.computedStyleMap.display = 'none';
     caixaPerguntas.classList.remove("mostrar");
     caixaAlternativas.classList.remove("mostrar");
-    caixaResultados.classList.remove("mostrar");
+    caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
 
 function mostraPergunta (){
     if (atual >= perguntas.length){
-        mostraResultados();
+        mostraResultado();
         return;
     }
     perguntasAtual = perguntas[atual];
@@ -40,4 +40,39 @@ function mostraAlternativas(){
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
+    function mostraAfirmacoes(){
+        for(const afirmacoes of perguntasAtual.afirmacoes){
+
+        }
+    }
 }
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacoes);
+    historiaFinal += afirmacoes + "";
+    if (opcaoSelecionada.proxima !== undefined){
+        atual = opcaoSelecionada.proxima;
+    }else{
+        mostraResultado();
+        return;
+    }
+    mostraPergunta();
+}
+function mostraResultado(){
+    caixaPerguntas.textContent = 'Em 2050, $(nome)';
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultados.classList.add("mostrar");
+    botaoJogarNovamente.addEventListener(click, jogaNovamente);
+}
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal  = "";
+    caixaResultados.classList.remove("mostrar");
+    mostraPergunta();
+}
+function substituiNome(){
+    for (const pergunta of perguntas){
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+substituiNome();
