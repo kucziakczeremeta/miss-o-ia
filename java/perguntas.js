@@ -37,38 +37,57 @@ export const perguntas = [
                 proxima: 4,
             }
  {
-        enunciado:
+        enunciado:'Qual dos seguintes efeitos dessa tecnologia é o mais diretamente implicado pela frase "Esta tecnologia destrói a confiança no que vemos"?",
         alternativas:[
 
             {
-                texto:
+                texto:"O principal efeito futuro dos deepfakes será o aumento da velocidade de produção de vídeos amadores por IA.",
                 afirmacao:[
-
+                    "Embora o aumento da velocidade de produção possa ser um subproduto da tecnologia, este não é o impacto central e crítico destacado no contexto. A preocupação principal é a destruição da confiança, e não a simples capacidade ou velocidade de produção de vídeos, sejam eles amadores ou não.",
                 ],
-                proxima: 3,
             }
             {
-                texto:
+                texto:"O principal efeito futuro dos deepfakes será a dificuldade em acreditar na veracidade das evidências visuais digitais.",
                 afirmacao:[
-
+                    "A frase chave no texto, "Esta tecnologia destrói a confiança no que vemos", implica diretamente que o resultado da proliferação de deepfakes ultrarrealistas será a erosão da crença na autenticidade de qualquer conteúdo visual (como fotos e vídeos), tornando difícil aceitá-los como prova ou evidência",
                 ],
                 proxima: 4,
             }
           {
-        enunciado:
+        
+        enunciado:"Se os deepfakes persistirem e evoluírem como um problema para o futuro, qual será o risco social e político mais crítico decorrente da destruição da confiança no conteúdo visual?"
         alternativas:[
 
             {
-                texto:
+                texto:"O risco de a maioria das plataformas de vídeo terem que ser substituídas por aplicativos que usem apenas textos e áudios"
                 afirmacao:[
-
+                    "A resposta futura ao problema não será o abandono total do vídeo, mas sim o investimento em autenticação e regulamentação."
                 ],
                 proxima: 3,
             }
             {
-                texto:
+                texto:"O risco de desinformação em massa, especialmente em períodos eleitorais, minando a integridade democrática e o debate público."
                 afirmacao:[
+                    "A perda de confiança atinge diretamente a integridade da informação, permitindo a manipulação política e social."
+                ],
+                proxima: 4,
+            }
+             {
 
+        enunciado:"O uso de IA para deepfakes é uma polêmica futura. Qual é o principal risco imediato que o caráter "ultrarrealista" impõe à sociedade?"
+        alternativas:[
+
+            {
+                texto:"Anulação da confiança em qualquer vídeo ou áudio digital."
+                afirmacao:[
+                    "O realismo extremo é o que destrói a confiança, tornando impossível diferenciar o real do falso."
+                ],
+                proxima: 3,
+            }
+            {
+                texto:"Aumento dos custos de produção de conteúdo profissional."
+                afirmacao:[
+                    "O risco primário é a desconfiança social/política, não a implicação econômica nos custos de estúdio."
                 ],
                 proxima: 4,
             }
