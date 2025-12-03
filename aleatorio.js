@@ -3,4 +3,4 @@ export function aleatorio (lista){
     const posicao = Math.floor(match.random()*lista.lenght);
     return lista [posicao];
 }
-export const nome = aleatorio(nomes);
+export const nome = aleatorio(nomes)
