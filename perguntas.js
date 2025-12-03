@@ -46,13 +46,14 @@ export const perguntas = [
                 afirmacao:[
                     "Embora o aumento da velocidade de produção possa ser um subproduto da tecnologia, este não é o impacto central e crítico destacado no contexto. A preocupação principal é a destruição da confiança, e não a simples capacidade ou velocidade de produção de vídeos, sejam eles amadores ou não.",
                 ],
+                proxima: 5,
             },
             {
                 texto:"O principal efeito futuro dos deepfakes será a dificuldade em acreditar na veracidade das evidências visuais digitais.",
                 afirmacao:[
                     "A frase chave no texto, 'Esta tecnologia destrói a confiança no que vemos', implica diretamente que o resultado da proliferação de deepfakes ultrarrealistas será a erosão da crença na autenticidade de qualquer conteúdo visual (como fotos e vídeos), tornando difícil aceitá-los como prova ou evidência",
                 ],
-                proxima: 5,
+                proxima: 6,
             },
         ]
     },
@@ -66,14 +67,14 @@ export const perguntas = [
                 afirmacao:[
                     "A resposta futura ao problema não será o abandono total do vídeo, mas sim o investimento em autenticação e regulamentação.",
                 ],
-                proxima: 6,
+                proxima: 7,
             },
             {
                 texto:"O risco de desinformação em massa, especialmente em períodos eleitorais, minando a integridade democrática e o debate público.",
                 afirmacao:[
                     "A perda de confiança atinge diretamente a integridade da informação, permitindo a manipulação política e social.",
                 ],
-                proxima: 7,
+                proxima: 8,
             },
          ]   
      },
@@ -86,14 +87,14 @@ export const perguntas = [
                 afirmacao:[
                     "O realismo extremo é o que destrói a confiança, tornando impossível diferenciar o real do falso.",
                 ],
-                proxima: 8,
+                proxima: 9,
             },
             {
                 texto:"Aumento dos custos de produção de conteúdo profissional.",
                 afirmacao:[
                     "O risco primário é a desconfiança social/política, não a implicação econômica nos custos de estúdio.",
                 ],
-                proxima: 9,
+                proxima: 10,
             },
         ]
     },
